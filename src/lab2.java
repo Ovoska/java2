@@ -3,7 +3,7 @@ import java.lang.Math;
 
 public class lab2 {
     public static void main(String[] args) {
-        // Задание 5
+
         double a1 = 2.54;
         double b1 = 1.23;
         double c1 = -2.14;
@@ -12,7 +12,7 @@ public class lab2 {
         double result5 = 2 * Math.cos(Math.pow(a1, b1)) + Math.acos(Math.max(-1, Math.min(1, c1 / Math.sqrt(d1))));
         System.out.println("Результат №5: " + result5);
 
-        // Задание 15
+
         double a2 = 1.25;
         double b2 = 3.09;
         double c2 = 4.25;
@@ -21,7 +21,7 @@ public class lab2 {
         double result15 = 2 - Math.log10(a2) / Math.sqrt(Math.acos(Math.max(-1, Math.min(1, b2)))) - 3 * Math.sqrt(Math.exp(-a2) * Math.sinh(d2));
         System.out.println("Результат №15: " + result15);
 
-        // Задание 25
+      
         double a3 = 2.98;
         double b3 = 5.55;
         double c3 = 0.045;
